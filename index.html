@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bootstrap: Grid System</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <!--Script-->
+  <script src="bootstrap/js/jquery-3.1.0.min.js"></script>
+  <script src="bootstrap/js/bootstrap.js"></script>
+</head>
+<body>
+  <div class="container">
+    <header><!--Inicio Header -->
+        <div class="row"><!-- Boton, Form, y parrafo de slogan-->
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+              <img class="mg-bottom-2 img-responsive" src="img/logo.png" alt="Logo">
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                <div class="row">
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3">
+                      <span class="glyphicon glyphicon-home"> Noticias</span>
+                    </div>
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3">
+                      <span class="glyphicon glyphicon-home"> Enlaces RSS</span>
+                    </div>
+                    <div class="visible-lg col-lg-3">
+                      <form action="">
+                        <input type="text" placeholder="Ingresa tu busqueda">
+                      </form> 
+                    </div>
+                    <div class="visible-lg  col-lg-3">
+                      <button class="btn btn-xs btn-default pull-right">Buscar</button>   
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row"><!-- Comienza el menu despegable-->
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="navbar navbar-default navbar">
+                    <div class="row GrayObs">
+                         <div class="navbar-header">
+                             <button type="button" class=" navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                                <span class="sr-only">Menu</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                             </button>
+                          </div>
+                          <div class="collapse navbar-collapse" id="myNavbar"><!--Inicio menu despegable-->
+                            <ul class="nav navbar-nav navbar-justified">
+                                <li class="CWhite"><a href="#">BIENVENIDOS</a></li>
+                                <li class="CWhite"><a href="#">ACTUALIDADES</a></li>
+                                <li class="CWhite"><a href="#">EN DIRECTO</a></li>
+                                <li class="CWhite"><a href="#">REPORTE FINANCIERO</a></li>
+                                <li class="CWhite"><a href="#">NUESTRA OFERTA</a></li>
+                                <li class="CWhite"><a href="#">DE NOSOTROS A USTED</a></li>
+                            </ul>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header><!--Fin Header -->
+    <section><!-- Seccion de todo el contenido-->
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4"><!-- Columna 1 -->
+              <div class="row"> <!-- Primera fila texto-->
+                  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-12">
+                        <p class="linea GrayObs mg-5 CWhite">Historia Destacada</p>
+                        <span>Articulo</span>|<span>Publicado el 2015</span>
+                        <h4>Articulos para conocer la historia</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis deleniti aliquam ad, quasi molestias fugiat quidem nemo consequuntur sit ipsa, laboriosam quos eligendi. Tenetur inventore, repellat rem recusandae quibusdam velit!</p>
+                        <!-- Zona de etiquetas-->
+                        <span class="pd-1 glyphicon glyphicon-bookmark"></span><a class="letra" href="http://laboratoria.la/">Ver mas</a>
+            
+                        <span class="pd-1 glyphicon glyphicon glyphicon-tags"></span><a class="letra" href="http://laboratoria.la/">Etiquetas</a>
+                        <button class="btn btn-link">Informa</button>
+                        <button class="btn btn-link">Acerca</button>
+                        <button class="btn btn-link">Click</button>
+                  </div>
+              </div>
+              <div class="row"><!-- Segunda fila texto-->
+                  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-12">
+                        <p class="linea CWhite CNegro">Websone</p>
+                        <a href="#">Preguntas</a>|<span>Publicado el 2015</span>
+                        <h4>Articulos para conocer la historia</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis deleniti aliquam ad, quasi molestias fugiat quidem nemo consequuntur sit ipsa, laboriosam quos eligendi. Tenetur inventore, repellat rem recusandae quibusdam velit!</p>
+                        <!-- Zona de etiquetas-->
+                        <span class="pd-1 glyphicon glyphicon-bookmark"></span><a class="letra" href="http://laboratoria.la/">Ver mas</a>
+            
+                        <span class="pd-1 glyphicon glyphicon glyphicon-tags"></span><a class="letra" href="http://laboratoria.la/">Etiquetas</a>
+                        <button class="btn btn-link">Informa</button>
+                        <button class="btn btn-link">Acerca</button>
+                        <button class="btn btn-link">Click</button>
+                  </div>
+              </div>
+              <div class="row"><!-- Tercera fila FOTO -->
+                  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-12">
+                      <h4>Articulo</h4>|<span>Publicado el 2015</span>
+                      <img class="img-responsive" src="img/grupal.jpg" alt="Grupal">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem provident ratione quidem? Fuga laborum accusantium ducimus unde odit reiciendis saepe nulla explicabo ea ipsa iste ratione deleniti, ipsum. Sint, recusandae!</p>
+                       <!-- Zona de etiquetas-->
+                      <span class="pd-1 glyphicon glyphicon-bookmark"></span><a class="letra" href="http://laboratoria.la/">Ver mas</a>
+            
+                      <span class="pd-1 glyphicon glyphicon glyphicon-tags"></span><a class="letra" href="http://laboratoria.la/">Etiquetas</a>
+                      <button class="btn btn-link">Informa</button>
+                      <button class="btn btn-link">Acerca</button>
+                      <button class="btn btn-link">Click</button>
+                  </div>
+              </div>
+              <div class="row"><!-- Cuarta fila texto cuatro-->
+                   <div class="col-xs-12 col-sm-12 col-md-6 col-lg-12">
+                      <h4 >Conociendo Codigo mas</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste at quam, impedit. Repudiandae, vero officia, omnis impedit, repellat porro minima nisi reiciendis nesciunt error cupiditate est iste quos iusto labore?</p>
+
+                       <!-- Zona de etiquetas-->
+                      <span class="pd-1 glyphicon glyphicon-bookmark"></span><a class="letra" href="http://laboratoria.la/">Ver mas</a>
+            
+                      <span class="pd-1 glyphicon glyphicon glyphicon-tags"></span><a class="letra" href="http://laboratoria.la/">Etiquetas</a>
+                      <button class="btn btn-link">Informa</button>
+                      <button class="btn btn-link">Acerca</button>
+                      <button class="btn btn-link">Click</button>
+                   </div> 
+              </div><!--  Columna 1 Texto Historia-->
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4"><!-- Columna 2 Video-->
+              <div class="row"><!-- Video-->
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                      <p class="linea GrayObs mg-5 CWhite">Historia Destacada</p>
+                      <iframe class="video-youtube" src="https://www.youtube.com/embed/ENYTun0mcUE"></iframe>
+                      <h2>Laboratoria</h2>
+                      <p class=" GrayObs">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid dolorum repellat quasi et blanditiis nostrum vel, optio rem cupiditate iste incidunt, asperiores eligendi accusamus eum hic harum sint reprehenderit! Nesciunt!</p>
+                      <span class="pd-10">Publicado el dia 2015</span> 
+                      <span class="pd-10 glyphicon glyphicon-bookmark"></span><a href="http://laboratoria.la/">Ver mas</a>
+                </div>
+              </div><!-- FIN Video-->
+              <div class="row"><!-- Fila del Calendario-->
+                    <div class="col-xs-6  col-sm-3 col-md-6 col-lg-3">
+                      <p class="linea GrayObs">23 de Enero</p>
+                      <p class="linea GrayObs">23 de Enero</p>
+                      <p class="linea GrayObs">23 de Enero</p>
+                      <p class="linea GrayObs">23 de Enero</p>
+                      
+                    </div>
+                    <div class="col-xs-6 col-sm-9 col-md-6 col-lg-9">
+                        <h4>Periodo Vacacional</h4>
+                        <p>Lorem ipsum dolor sit amet </p>
+                        <p>De 23 de Diciembre a 23 de Enero</p>
+
+                        <h4>Periodo Vacacional</h4>
+                        <p>Lorem ipsum dolor sit amet</p>
+                        <p>De 23 de Diciembre a 23 de Enero</p>
+
+                        <h4>Periodo Vacacional</h4>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <p>De 23 de Diciembre a 23 de Enero</p>
+
+                        <h4>Periodo Vacacional</h4>
+                        <p>Lorem ipsum dolor sit amet</p>
+                        <p>De 23 de Diciembre a 23 de Enero</p>
+                    </div>
+                </div><!-- FIN F Calendario-->
+              
+              <div class="row"><!-- Mas informacion-->
+                    <div class="col-xs-12 col-sm-6 col-md-12 col-lg-12">
+                          <h2>Mas Informacion</h2>
+                          <a href="#">Localidades</a>
+                          <p class="text-left">Ver mas informacion</p>
+                          <p class="text-left">Lorem ipsum dolor sit amet</p>
+
+                          <a href="#">Hospitalidades</a>
+                          <p class="text-left">Ver mas informacion</p>
+                          <p class="text-left">Lorem ipsum dolor sit amet</p>
+                    </div>
+              </div><!-- FIN Informacion-->
+          </div><!--FIN   de Columna 2 Video-->
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4"><!-- Columna 3 Mas Informacion -->
+              <div class="GrayObs mg-bottom-2 row"><!-- etiquetas-->
+                    <div class="visible-lg col-lg-12">
+                        <h2>MAS INFORMACIÓN</h2>
+                        <span class="bloque glyphicon glyphicon-bookmark">Servicios</span>
+                        <span class="bloque glyphicon glyphicon-bookmark">Conferencias</span>
+                        <span class="bloque glyphicon glyphicon-bookmark">Nuestras Coders</span>
+                        <span class="bloque glyphicon glyphicon-bookmark">Importante</span>
+                        <span class="bloque mg-bottom-2 glyphicon glyphicon-bookmark">Ubicacion</span>
+                    </div>
+              </div>
+              <div class="GrayObs mg-bottom-2 row"><!-- Magazine-->
+                    <div class="visible-lg col-lg-12">
+                        <p class="letra">MAGAZINE <br> ECODIFI</p>
+                        <p>COMENTARIOS <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p>PREGUNTAS <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+              </div>
+              <div class="GrayObs mg-bottom-2 row"><!-- Magazine-->
+                  <div class="visible-lg col-lg-12">
+                      <p class="letra">MAGAZINE <br> ECODIFI</p>
+                      <p>COMENTARIOS <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                      <p>PREGUNTAS <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  </div>
+              </div>
+              <div class="GrayObs mg-bottom-2 row"><!-- Magazine-->
+                  <div class="visible-lg col-lg-12">
+                      <p class="letra">MAGAZINE <br> ECODIFI</p>
+                      <p>COMENTARIOS <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                      <p>PREGUNTAS <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  </div>
+              </div>
+          </div><!-- Fin de Mas Informacion Columna 3-->
+
+        </div>
+    </section>
+    <section><!-- Seccion hr-->
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-12">
+                <hr>
+            </div>
+        </div>
+    </section><!--Fin Seccion hr-->
+    <footer><!-- Inicio Footer-->
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-12">
+                <div class="col-xs-3 col-sm-3  col-lg-2">
+                    <h2>Rubros</h2>
+                    <span class="bloque glyphicon glyphicon-bookmark">Inmueble</span>
+                    <span class="bloque glyphicon glyphicon-bookmark">Empleados</span>
+                    <span class="bloque glyphicon glyphicon-bookmark">Material</span>
+                    <span class="bloque glyphicon glyphicon-bookmark">Utilidades</span>
+                    <span class="bloque glyphicon glyphicon-bookmark">Servicio</span>
+                    
+                </div>
+                <div class="visible-lg col-lg-2">
+                    <h2>Experiencia</h2>
+                    <span class="bloque glyphicon glyphicon-bookmark">Actualidades</span>
+                    <span class="bloque glyphicon glyphicon-bookmark">Actualidades</span>
+                    <span class="bloque glyphicon glyphicon-bookmark">Actualidades</span>
+                    <span class="bloque glyphicon glyphicon-bookmark">Actualidades</span>
+                    <span class="bloque glyphicon glyphicon-bookmark">Actualidades</span>
+                </div>
+                <div class="col-xs-3 col-sm-3 col-md-12 col-lg-2">
+                    <h2 >Suscripcion</h2>
+                    <span class="bloque glyphicon glyphicon-bookmark">Actualidades</span>
+                    <span class="bloque glyphicon glyphicon-bookmark">Actualidades</span>
+                    <span class="bloque glyphicon glyphicon-bookmark">Actualidades</span>
+                </div>
+          
+                <div class="col-xs-3 col-sm-3 col-md-12 col-lg-2">
+                    <h2>Nosotros</h2>
+                    <span class="bloque glyphicon glyphicon-bookmark">Actualidades</span>
+                    <span class="bloque glyphicon glyphicon-bookmark">Actualidades</span>
+                    <span class="bloque glyphicon glyphicon-bookmark">Actualidades</span>
+
+                </div>
+                <div class="col-xs-3 col-sm-3 col-md-12 col-lg-2">
+                    <h2>Contacto</h2>
+                    <span class="bloque glyphicon glyphicon-bookmark">Actualidades</span>
+                    <span class="bloque glyphicon glyphicon-bookmark">Actualidades</span>
+                    <span class="bloque glyphicon glyphicon-bookmark">Actualidades</span>
+                </div> 
+        </div>
+    </footer><!-- Fin de Footer-->
+  </div>
+</body>
+</html>

@@ -1,0 +1,52 @@
+/* Inserta tu código aqui */
+body{
+	background-color: #FAF3DD;
+	margin-top: 2%;
+}
+li{
+	display: inline-block;
+}
+a{
+	text-decoration: none;
+
+}
+h2{
+	font-size: 100%;
+	font-weight: bold;
+}
+iframe{
+	margin: 15% 10%;
+}
+.bloque{
+	display: block;
+}
+.linea{
+	display: inline-block;
+}
+.CGray{
+	background:  #8FC0A9;
+}
+.CWhite{
+	color: white; 
+}
+.CNegro{
+	background: black; 
+}
+.GrayObs{
+	background-color:#778899;
+}
+.Black{
+
+}
+.letra{
+	font-weight: bold;
+}
+.caja{
+	width: 40%;
+	height: 30%;
+}
+
+hr{
+	width:75%;
+	border: 5% solid black;
+}
